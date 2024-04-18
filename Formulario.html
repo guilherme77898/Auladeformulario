@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro Pessoa</h1>
+    <form action="recebeDados.php" method="post">
+        Nome: <input type="text" name="nome" size="50">
+        <br>
+        <br>
+        Hora: <input type="time" name="Hora">
+        <br>
+        <br>
+        Senha: <input type="password" name="Senha">
+        <br>
+        <br>
+        email: <input type="email" name="E-mail">
+        Cor: <input type="color" name="cor" id="">
+        <br>
+        <br>
+        <input type="file" name="Arquivo" id="">
+        <br>
+        <br>
+        Nascimento: <input type="datetime-local" name="nascimento" id="">
+        <br>
+        <br>
+        Satisfação: <input type="range" name="Satisfação" id="">
+        <br>
+        <br>
+        <input type="image" src="https://down-br.img.susercontent.com/file/sg-11134201-7rce8-ltga1mz76eif6b_tn.webp" 
+        <br>
+        <br>
+        Cursos: <br>
+        MC: <input type="radio" name="curso" value="MC"><br>
+        LC: <input type="radio" name="curso" value="LC"><br>
+        TI: <input type="radio" name="curso" value="TI"><br>
+        Disciplina: <br>
+        <input type="checkbox" name="LV1">LV1<br>
+        <input type="checkbox" name="Redes">Redes<br>
+        <input type="checkbox" name="MPE">MPE<br>
+        <input type="checkbox" name="POO">POO<br>
+        Estado: <br>
+        <select name="estado">
+            <option value="DF">DF</option>
+            <option value="MG">MG</option>
+            <option value="RJ">RJ</option>
+            <option value="SP">SP</option>
+        </select><br>
+        Observações:<br>
+        <textarea name="observações" cols="20" rows="5"></textarea>
+        <input type="submit" value="Cadastrar">
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </form>
+    
+</body>
+</html>
